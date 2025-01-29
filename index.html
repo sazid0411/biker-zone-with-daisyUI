@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <!-- DaisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -30,8 +30,16 @@
         }
     </script>
     <style>
-        .font {
+        .font-poppin {
             font-family: "Poppins", serif;
+        }
+
+        .font-inter {
+            font-family: "Inter", serif;
+        }
+
+        .font-manrope {
+            font-family: "Manrope", serif;
         }
     </style>
 </head>
@@ -41,7 +49,7 @@
     <header class="container mx-auto">
         <!-- Navbar -->
 
-        <nav >
+        <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -187,59 +195,56 @@
         <!-- Latest News -->
         <section class="mt-[75px] lg:mt-[130px]">
             <h1 class="text-center text-3xl lg:text-5xl font-semibold mb-[42px] lg:mb-[50px]">Latest News</h1>
-            <div class="flex flex-col gap-20 align-middle justify-center lg:flex-row ">
-                <div class="flex align-middle justify-center">
-                    <div class="card bg-base-100 w-96 shadow-xl">
-                        <figure>
-                            <img src="./images/others/latest1.png" alt="Shoes" />
-                        </figure>
+            <div class="flex flex-col gap-5 align-middle justify-center lg:flex-row  place-items-center">
+                <div class="card bg-base-100 w-96 shadow-xl">
+                    <figure>
+                        <img src="./images/others/latest1.png" alt="Shoes" />
+                    </figure>
 
-                        <div class="card-body">
-                            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
-                            <p class="text-ctext ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-                                accusamus quod harum dignissimos fuga temporibus.</p>
-                            <div class="card-actions justify-start">
-                                <button class="btn  bg-button border-none text-white hover:bg-gray-500">Buy Now</button>
-                            </div>
+                    <div class="card-body">
+                        <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                        <p class="text-ctext ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
+                            accusamus quod harum dignissimos fuga temporibus.</p>
+                        <div class="card-actions justify-start">
+                            <button class="btn  bg-button border-none text-white hover:bg-gray-500">Buy Now</button>
                         </div>
-
                     </div>
+
+                </div>
+
+                <!--  -->
+
+                <div class="card bg-base-100 w-96 shadow-xl">
+                    <figure>
+                        <img src="./images/others/latest2.png" alt="Shoes" />
+                    </figure>
+
+                    <div class="card-body">
+                        <h2 class="card-title">Motorcycles & Scooters</h2>
+                        <p class="text-ctext ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
+                            accusamus quod harum dignissimos fuga temporibus.</p>
+                        <div class="card-actions justify-start">
+                            <button class="btn  border-button hover:bg-gray-500">Buy Now</button>
+                        </div>
+                    </div>
+
                 </div>
                 <!--  -->
-                <div class="flex align-middle justify-center">
-                    <div class="card bg-base-100 w-96 shadow-xl">
-                        <figure>
-                            <img src="./images/others/latest2.png" alt="Shoes" />
-                        </figure>
 
-                        <div class="card-body">
-                            <h2 class="card-title">Motorcycles & Scooters</h2>
-                            <p class="text-ctext ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-                                accusamus quod harum dignissimos fuga temporibus.</p>
-                            <div class="card-actions justify-start">
-                                <button class="btn  border-button hover:bg-gray-500">Buy Now</button>
-                            </div>
+                <div class="card bg-base-100 w-96 shadow-xl ">
+                    <figure>
+                        <img src="./images/others/latest3.png" alt="Shoes" />
+                    </figure>
+
+                    <div class="card-body">
+                        <h2 class="card-title">2021 Honda CBR500R</h2>
+                        <p class="text-ctext ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
+                            accusamus quod harum dignissimos fuga temporibus.</p>
+                        <div class="card-actions justify-start">
+                            <button class="btn border-button hover:bg-gray-500">Buy Now</button>
                         </div>
-
                     </div>
-                </div>
-                <!--  -->
-                <div class="flex align-middle justify-center">
-                    <div class="card bg-base-100 w-96 shadow-xl">
-                        <figure>
-                            <img src="./images/others/latest3.png" alt="Shoes" />
-                        </figure>
 
-                        <div class="card-body">
-                            <h2 class="card-title">2021 Honda CBR500R</h2>
-                            <p class="text-ctext ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-                                accusamus quod harum dignissimos fuga temporibus.</p>
-                            <div class="card-actions justify-start">
-                                <button class="btn border-button hover:bg-gray-500">Buy Now</button>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
 
             </div>
@@ -251,14 +256,17 @@
         </section>
         <!-- FAQ -->
         <section class="mt-[75px] lg:mt-[130px]">
+            <h1 class="text-center text-3xl lg:text-5xl font-semibold mb-[42px] lg:mb-[50px]">Frequently Asked <span
+                    class="text-button">Questions</span></h1>
             <div class="flex flex-col lg:flex-row ">
                 <div class="lg:flex-1 flex align-middle justify-center">
                     <img src="./images/others/faq.png" alt="" class="p-10 lg:p-0 ">
                 </div>
                 <div class="lg:flex-1 lg:flex lg:align-baseline lg:flex-col lg:justify-center p-2 lg:p-0">
                     <div class="collapse collapse-arrow bg-white border-[#2b548d] lg:max-w-[530px]">
-                        <input type="radio" name="my-accordion-2"/>
-                        <div class="collapse-title text-xl font-medium">What are the most important things I should
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium font-inter">What are the most important things I
+                            should
                             know about riding a bike?</div>
                         <div class="collapse-content">
                             <p class="text-ctext">Safety First! Always obey the rules of the road. Obey all traffic
@@ -269,7 +277,8 @@
                     </div>
                     <div class="collapse collapse-arrow b bg-white  lg:max-w-[530px] p-0">
                         <input type="radio" name="my-accordion-2" />
-                        <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a
+                        <div class="collapse-title text-xl font-medium font-inter">How can I tell if my helmet is old
+                            and I need a
                             new one?</div>
                         <div class="collapse-content">
                             <p class="text-ctext">hello</p>
@@ -277,7 +286,8 @@
                     </div>
                     <div class="collapse collapse-arrow  bg-white lg:max-w-[530px]">
                         <input type="radio" name="my-accordion-2" />
-                        <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?
+                        <div class="collapse-title text-xl font-medium font-inter">My bike has been in storage is it
+                            safe to ride?
                         </div>
                         <div class="collapse-content">
                             <p class="text-ctext">hello</p>
@@ -285,7 +295,8 @@
                     </div>
                     <div class="collapse collapse-arrow  bg-white lg:max-w-[530px]">
                         <input type="radio" name="my-accordion-2" />
-                        <div class="collapse-title text-xl font-medium">What rules should I follow when riding my
+                        <div class="collapse-title text-xl font-medium font-inter">What rules should I follow when
+                            riding my
                             bike?
                         </div>
                         <div class="collapse-content">
@@ -306,9 +317,35 @@
 
     </main>
     <!-- Footer main  -->
-    <footer class=" mx-auto">
+    <footer class="pt-[80px] pb-[43px] lg:pb-[75jpx] lg:pt-[56px] lg:pl-[112px] lg:pr-[112px] bg-black text-white mt-[75px] lg:mt-[130px]">
+        <div class="container mx-auto space-y-[80px]">
+            <div class=" flex gap-[60px] flex-col lg:flex-row align-middle lg:justify-between pl-2.5  ">
+                <div class="font-manrope flex flex-col gap-3 mt-[60px]">
+                    <div class="flex gap-6 ">
+                        <span class="">Download Now</span>
+                        <span>License</span>
+                    </div>
+                    <ul class="grid grid-cols-3 lg:grid-cols-6">
+                        <li>About</li>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>Careers</li>
+                        <li>Help</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                   
+                </div>
+                <div class="flex flex-col gap-5 lg:gap-2">
+                    <p class="text-gray-400 font-medium">Get The App</p>
+                    <img src="./images/others/android.png" alt="" class="w-[40%] lg:w-[60%]">
+                    <img src="./images/others/ios.png" alt="" class="w-[40%] lg:w-[60%]">
+                </div>
+            </div>
+            <p class=" text-center lg:text-start   text-gray-400">© 2025 bike. All rights reserved</p>
+            </div>
 
     </footer>
+
 </body>
 
 </html>
